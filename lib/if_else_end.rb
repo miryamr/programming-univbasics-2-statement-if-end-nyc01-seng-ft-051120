@@ -1,7 +1,7 @@
 # Write your solution here
 current_time = Time.now
-if current_time.even?
+if current_time.now.even?
   puts "Even!"
 else
   puts "Odd!"
-end 
+end
