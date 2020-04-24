@@ -1,10 +1,10 @@
 # Write your solution here
-current_time = Time.now.even
-puts "Even!"
-if current_time = true
+current_time = Time.now.to_i
+if current_time.even?
+  puts "Even!"
 else
   puts "Odd!"
-end 
+end
 
 
 #Assign `run_code_inside`
